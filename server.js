@@ -1,3 +1,5 @@
+// before running this code in vm , once u added this in nano server.js do 'npm install express cors pg' if not code will not work
+
 const express = require("express");
 const {Pool} = require("pg");
 const cors = require("cors");
